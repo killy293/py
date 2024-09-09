@@ -1,0 +1,1527 @@
+2024-07-23T11:55:20+0900 INFO --- logging initialized ---
+2024-07-23T11:55:20+0900 DDEBUG timer: config: 11 ms
+2024-07-23T11:55:20+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-07-23T11:55:20+0900 DEBUG DNF version: 4.14.0
+2024-07-23T11:55:20+0900 DDEBUG Command: dnf makecache --timer 
+2024-07-23T11:55:20+0900 DDEBUG Installroot: /
+2024-07-23T11:55:20+0900 DDEBUG Releasever: 9
+2024-07-23T11:55:20+0900 DEBUG cachedir: /var/cache/dnf
+2024-07-23T11:55:20+0900 DDEBUG Base command: makecache
+2024-07-23T11:55:20+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-07-23T11:55:20+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-07-23T11:55:20+0900 WARNING 마지막 makecache 시간을 결정하지 못했습니다.
+2024-07-23T11:55:20+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-07-23T11:55:20+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-07-23T11:55:20+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-07-23T11:55:20+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-07-23T11:55:20+0900 DEBUG countme: no event for baseos: window already counted
+2024-07-23T11:55:23+0900 DEBUG baseos: 메타 자료 사용 중 2024년 07월 19일 (금) 오전 05시 57분 53초.
+2024-07-23T11:55:23+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-07-23T11:55:23+0900 DEBUG countme: no event for appstream: budget to spend: 1
+2024-07-23T11:55:28+0900 DEBUG appstream: 메타 자료 사용 중 2024년 07월 19일 (금) 오전 05시 01분 40초.
+2024-07-23T11:55:28+0900 DEBUG repo: 원격에서 내려받기 중: extras
+2024-07-23T11:55:28+0900 DEBUG countme: no event for extras: budget to spend: 1
+2024-07-23T11:55:29+0900 DEBUG extras: 메타 자료 사용 중 2024년 07월 16일 (화) 오전 12시 15분 15초.
+2024-07-23T11:55:29+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-07-23T11:55:29+0900 DDEBUG timer: sack setup: 9189 ms
+2024-07-23T11:55:29+0900 DEBUG Completion plugin: Generating completion cache...
+2024-07-23T11:55:29+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-07-23T11:55:29+0900 DDEBUG Cleaning up.
+2024-07-23T11:55:29+0900 DDEBUG Plugins were unloaded.
+2024-07-23T13:07:58+0900 INFO --- logging initialized ---
+2024-07-23T13:07:58+0900 DDEBUG timer: config: 3 ms
+2024-07-23T13:07:58+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-07-23T13:07:58+0900 DEBUG DNF version: 4.14.0
+2024-07-23T13:07:58+0900 DDEBUG Command: dnf makecache --timer 
+2024-07-23T13:07:58+0900 DDEBUG Installroot: /
+2024-07-23T13:07:58+0900 DDEBUG Releasever: 9
+2024-07-23T13:07:58+0900 DEBUG cachedir: /var/cache/dnf
+2024-07-23T13:07:58+0900 DDEBUG Base command: makecache
+2024-07-23T13:07:58+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-07-23T13:07:58+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-07-23T13:07:58+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-07-23T13:07:58+0900 DDEBUG Cleaning up.
+2024-07-23T13:07:58+0900 DDEBUG Plugins were unloaded.
+2024-08-13T12:25:22+0900 INFO --- logging initialized ---
+2024-08-13T12:25:22+0900 DDEBUG timer: config: 33 ms
+2024-08-13T12:25:22+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T12:25:22+0900 DEBUG YUM version: 4.14.0
+2024-08-13T12:25:22+0900 DDEBUG Command: yum -y install nginx 
+2024-08-13T12:25:22+0900 DDEBUG Installroot: /
+2024-08-13T12:25:22+0900 DDEBUG Releasever: 9
+2024-08-13T12:25:22+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T12:25:22+0900 DDEBUG Base command: install
+2024-08-13T12:25:22+0900 DDEBUG Extra commands: ['-y', 'install', 'nginx']
+2024-08-13T12:25:22+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T12:25:22+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T12:25:22+0900 DEBUG repo: 원격에서 내려받기 중: nginx
+2024-08-13T12:25:24+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 3.125.197.172) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:25:25+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 3.125.197.172) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:25:25+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 3.125.197.172) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:25:26+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 3.125.197.172) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:25:26+0900 WARNING Errors during downloading metadata for repository 'nginx':
+  - Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 3.125.197.172)
+2024-08-13T12:25:26+0900 DDEBUG Cleaning up.
+2024-08-13T12:25:26+0900 DDEBUG Plugins were unloaded.
+2024-08-13T12:25:26+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/repo.py", line 574, in load
+    ret = self._repo.load()
+  File "/usr/lib64/python3.9/site-packages/libdnf/repo.py", line 331, in load
+    return _repo.Repo_load(self)
+libdnf._error.Error: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1040, in run
+    self._process_demands()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 741, in _process_demands
+    self.base.fill_sack(
+  File "/usr/lib/python3.9/site-packages/dnf/base.py", line 406, in fill_sack
+    self._add_repo_to_sack(r)
+  File "/usr/lib/python3.9/site-packages/dnf/base.py", line 141, in _add_repo_to_sack
+    repo.load()
+  File "/usr/lib/python3.9/site-packages/dnf/repo.py", line 581, in load
+    raise dnf.exceptions.RepoError(str(e))
+dnf.exceptions.RepoError: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+2024-08-13T12:25:26+0900 CRITICAL 오류: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+2024-08-13T12:27:28+0900 INFO --- logging initialized ---
+2024-08-13T12:27:28+0900 DDEBUG timer: config: 7 ms
+2024-08-13T12:27:28+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T12:27:28+0900 DEBUG YUM version: 4.14.0
+2024-08-13T12:27:28+0900 DDEBUG Command: yum -y install nginx 
+2024-08-13T12:27:28+0900 DDEBUG Installroot: /
+2024-08-13T12:27:28+0900 DDEBUG Releasever: 9
+2024-08-13T12:27:28+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T12:27:28+0900 DDEBUG Base command: install
+2024-08-13T12:27:28+0900 DDEBUG Extra commands: ['-y', 'install', 'nginx']
+2024-08-13T12:27:28+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T12:27:28+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T12:27:28+0900 DEBUG repo: 원격에서 내려받기 중: nginx
+2024-08-13T12:27:30+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 52.58.199.22) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:27:31+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 52.58.199.22) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:27:31+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 52.58.199.22) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:27:32+0900 DEBUG error: Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 52.58.199.22) (http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml).
+2024-08-13T12:27:32+0900 WARNING Errors during downloading metadata for repository 'nginx':
+  - Status code: 404 for http://nginx.org/packages/centos/$relreasever/x86_64/repodata/repomd.xml (IP: 52.58.199.22)
+2024-08-13T12:27:32+0900 DDEBUG Cleaning up.
+2024-08-13T12:27:32+0900 DDEBUG Plugins were unloaded.
+2024-08-13T12:27:32+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/repo.py", line 574, in load
+    ret = self._repo.load()
+  File "/usr/lib64/python3.9/site-packages/libdnf/repo.py", line 331, in load
+    return _repo.Repo_load(self)
+libdnf._error.Error: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1040, in run
+    self._process_demands()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 741, in _process_demands
+    self.base.fill_sack(
+  File "/usr/lib/python3.9/site-packages/dnf/base.py", line 406, in fill_sack
+    self._add_repo_to_sack(r)
+  File "/usr/lib/python3.9/site-packages/dnf/base.py", line 141, in _add_repo_to_sack
+    repo.load()
+  File "/usr/lib/python3.9/site-packages/dnf/repo.py", line 581, in load
+    raise dnf.exceptions.RepoError(str(e))
+dnf.exceptions.RepoError: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+2024-08-13T12:27:32+0900 CRITICAL 오류: repo를 위한 메타자료 내려받기에 실패하였습니다 'nginx': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+2024-08-13T12:32:08+0900 INFO --- logging initialized ---
+2024-08-13T12:32:08+0900 DDEBUG timer: config: 5 ms
+2024-08-13T12:32:08+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T12:32:08+0900 DEBUG YUM version: 4.14.0
+2024-08-13T12:32:08+0900 DDEBUG Command: yum -y install nginx 
+2024-08-13T12:32:08+0900 DDEBUG Installroot: /
+2024-08-13T12:32:08+0900 DDEBUG Releasever: 9
+2024-08-13T12:32:08+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T12:32:08+0900 DDEBUG Base command: install
+2024-08-13T12:32:08+0900 DDEBUG Extra commands: ['-y', 'install', 'nginx']
+2024-08-13T12:32:08+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T12:32:08+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T12:32:09+0900 DEBUG repo: 원격에서 내려받기 중: nginx
+2024-08-13T12:32:17+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-13T12:32:17+0900 DEBUG countme: event triggered for baseos: bucket 2
+2024-08-13T12:32:47+0900 DEBUG error: Curl error (28): Timeout was reached for https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=2 [Resolving timed out after 30000 milliseconds] (https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=2).
+2024-08-13T12:32:57+0900 DEBUG 부활: 'baseos'에 실패하고, 일치하지 않은 repomd.
+2024-08-13T12:32:57+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-08-13T12:32:57+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-13T12:33:13+0900 DEBUG error: Curl error (35): SSL connect error for https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9 [OpenSSL SSL_connect: 상대편이 연결을 끊음 in connection to mirrors.rockylinux.org:443 ] (https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9).
+2024-08-13T12:33:53+0900 DEBUG error: Curl error (28): Timeout was reached for https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9 [Operation too slow. Less than 1000 bytes/sec transferred the last 30 seconds] (https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9).
+2024-08-13T12:34:57+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-13T12:34:57+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T12:34:58+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-08-13T12:34:58+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-08-13T12:34:58+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T12:35:00+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-13T12:35:00+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T12:35:01+0900 DEBUG 부활: 'extras'에 실패하고, 일치하지 않은 repomd.
+2024-08-13T12:35:01+0900 DEBUG repo: 원격에서 내려받기 중: extras
+2024-08-13T12:35:01+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T12:35:03+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-13T12:35:03+0900 DDEBUG timer: sack setup: 174937 ms
+2024-08-13T12:35:03+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-13T12:35:03+0900 DEBUG -> 종석성 해결 시작
+2024-08-13T12:35:03+0900 DEBUG ---> 꾸러미 nginx.x86_64 1:1.26.1-2.el9.ngx가 설치됩니다
+2024-08-13T12:35:03+0900 DEBUG -> 종속성 해결 완료
+2024-08-13T12:35:03+0900 DDEBUG timer: depsolve: 17 ms
+2024-08-13T12:35:03+0900 INFO 종속성이 해결되었습니다.
+2024-08-13T12:35:03+0900 INFO ==============================================================================================================================================================
+ 꾸러미                            구조                               버전                                            저장소                             크기
+==============================================================================================================================================================
+설치 중:
+ [1m[32mnginx                            (B[m x86_64                             1:1.26.1-2.el9.ngx                              nginx                             996 k
+
+연결 요약
+==============================================================================================================================================================
+설치  1 꾸러미
+
+2024-08-13T12:35:03+0900 INFO 전체 내려받기 크기: 996 k
+2024-08-13T12:35:03+0900 INFO 설치된 크기 : 3.3 M
+2024-08-13T12:35:03+0900 INFO 꾸러미 내려받기 중:
+2024-08-13T12:35:06+0900 INFO --------------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-08-13T12:35:06+0900 INFO 합계                                                                                                                          379 kB/s | 996 kB     00:02     
+2024-08-13T12:35:06+0900 INFO 연결 확인 실행 중
+2024-08-13T12:35:06+0900 INFO 연결 확인에 성공했습니다.
+2024-08-13T12:35:06+0900 INFO 연결 시험 실행 중
+2024-08-13T12:35:06+0900 INFO 연결 시험에 성공했습니다.
+2024-08-13T12:35:06+0900 DDEBUG timer: transaction test: 154 ms
+2024-08-13T12:35:06+0900 INFO 연결 실행 중
+2024-08-13T12:35:06+0900 DDEBUG RPM transaction start.
+2024-08-13T12:35:08+0900 DDEBUG RPM transaction over.
+2024-08-13T12:35:09+0900 INFO --- logging initialized ---
+2024-08-13T12:35:09+0900 DDEBUG timer: config: 14 ms
+2024-08-13T12:35:09+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T12:35:09+0900 DEBUG DNF version: 4.14.0
+2024-08-13T12:35:09+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T12:35:09+0900 DDEBUG Installroot: /
+2024-08-13T12:35:09+0900 DDEBUG Releasever: 9
+2024-08-13T12:35:09+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T12:35:09+0900 DDEBUG Base command: makecache
+2024-08-13T12:35:09+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T12:35:09+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T12:35:09+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T12:35:09+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-13T12:35:09+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-13T12:35:09+0900 DDEBUG timer: verify transaction: 935 ms
+2024-08-13T12:35:09+0900 DDEBUG timer: transaction: 3184 ms
+2024-08-13T12:35:09+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-13T12:35:09+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-13T12:35:09+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-13T12:35:10+0900 DEBUG 설치되었습니다: nginx-1:1.26.1-2.el9.ngx.x86_64
+2024-08-13T12:35:10+0900 INFO 완료되었습니다!
+2024-08-13T12:35:10+0900 DDEBUG Cleaning up.
+2024-08-13T12:35:10+0900 DDEBUG /var/cache/dnf/nginx-bdd0dad78aca0e35/packages/nginx-1.26.1-2.el9.ngx.x86_64.rpm가 삭제되었습니다
+2024-08-13T12:35:10+0900 DDEBUG Plugins were unloaded.
+2024-08-13T12:35:10+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T12:35:10+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-13T12:35:10+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-13T12:35:11+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T12:35:11+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-13T12:35:11+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T12:35:12+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T12:35:12+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-13T12:35:12+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T12:35:13+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T12:35:13+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-13T12:35:13+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T12:35:13+0900 DDEBUG timer: sack setup: 3602 ms
+2024-08-13T12:35:13+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-13T12:35:13+0900 DDEBUG Cleaning up.
+2024-08-13T12:35:13+0900 DDEBUG Plugins were unloaded.
+2024-08-13T14:11:09+0900 INFO --- logging initialized ---
+2024-08-13T14:11:09+0900 DDEBUG timer: config: 7 ms
+2024-08-13T14:11:09+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T14:11:09+0900 DEBUG DNF version: 4.14.0
+2024-08-13T14:11:09+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T14:11:09+0900 DDEBUG Installroot: /
+2024-08-13T14:11:09+0900 DDEBUG Releasever: 9
+2024-08-13T14:11:09+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T14:11:09+0900 DDEBUG Base command: makecache
+2024-08-13T14:11:09+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T14:11:09+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T14:11:09+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T14:11:09+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-13T14:11:09+0900 DDEBUG Cleaning up.
+2024-08-13T14:11:09+0900 DDEBUG Plugins were unloaded.
+2024-08-13T15:50:09+0900 INFO --- logging initialized ---
+2024-08-13T15:50:09+0900 DDEBUG timer: config: 11 ms
+2024-08-13T15:50:09+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T15:50:09+0900 DEBUG DNF version: 4.14.0
+2024-08-13T15:50:09+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T15:50:09+0900 DDEBUG Installroot: /
+2024-08-13T15:50:09+0900 DDEBUG Releasever: 9
+2024-08-13T15:50:09+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T15:50:09+0900 DDEBUG Base command: makecache
+2024-08-13T15:50:09+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T15:50:09+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T15:50:09+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T15:50:09+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-13T15:50:09+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-13T15:50:09+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-13T15:50:09+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-13T15:50:10+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T15:50:10+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-13T15:50:10+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-13T15:50:11+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T15:50:11+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-13T15:50:11+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T15:50:12+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T15:50:12+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-13T15:50:12+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T15:50:13+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T15:50:13+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-13T15:50:13+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T15:50:13+0900 DDEBUG timer: sack setup: 3668 ms
+2024-08-13T15:50:13+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-13T15:50:13+0900 DDEBUG Cleaning up.
+2024-08-13T15:50:13+0900 DDEBUG Plugins were unloaded.
+2024-08-13T17:13:09+0900 INFO --- logging initialized ---
+2024-08-13T17:13:09+0900 DDEBUG timer: config: 8 ms
+2024-08-13T17:13:09+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T17:13:09+0900 DEBUG DNF version: 4.14.0
+2024-08-13T17:13:09+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T17:13:09+0900 DDEBUG Installroot: /
+2024-08-13T17:13:09+0900 DDEBUG Releasever: 9
+2024-08-13T17:13:09+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T17:13:09+0900 DDEBUG Base command: makecache
+2024-08-13T17:13:09+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T17:13:09+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T17:13:09+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T17:13:09+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-13T17:13:09+0900 DDEBUG Cleaning up.
+2024-08-13T17:13:09+0900 DDEBUG Plugins were unloaded.
+2024-08-13T18:49:03+0900 INFO --- logging initialized ---
+2024-08-13T18:49:03+0900 DDEBUG timer: config: 4 ms
+2024-08-13T18:49:03+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T18:49:03+0900 DEBUG DNF version: 4.14.0
+2024-08-13T18:49:03+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T18:49:03+0900 DDEBUG Installroot: /
+2024-08-13T18:49:03+0900 DDEBUG Releasever: 9
+2024-08-13T18:49:03+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T18:49:03+0900 DDEBUG Base command: makecache
+2024-08-13T18:49:03+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T18:49:03+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T18:49:03+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T18:49:03+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-13T18:49:03+0900 DDEBUG Cleaning up.
+2024-08-13T18:49:03+0900 DDEBUG Plugins were unloaded.
+2024-08-13T20:18:13+0900 INFO --- logging initialized ---
+2024-08-13T20:18:13+0900 DDEBUG timer: config: 3 ms
+2024-08-13T20:18:13+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T20:18:13+0900 DEBUG DNF version: 4.14.0
+2024-08-13T20:18:13+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T20:18:13+0900 DDEBUG Installroot: /
+2024-08-13T20:18:13+0900 DDEBUG Releasever: 9
+2024-08-13T20:18:13+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T20:18:13+0900 DDEBUG Base command: makecache
+2024-08-13T20:18:13+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T20:18:13+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T20:18:13+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T20:18:13+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-13T20:18:13+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-13T20:18:13+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-13T20:18:13+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-13T20:18:14+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T20:18:14+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-13T20:18:14+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-13T20:18:15+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T20:18:15+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-13T20:18:15+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T20:18:15+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T20:18:16+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-13T20:18:16+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T20:18:16+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T20:18:16+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-13T20:18:16+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T20:18:17+0900 DDEBUG timer: sack setup: 3402 ms
+2024-08-13T20:18:17+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-13T20:18:17+0900 DDEBUG Cleaning up.
+2024-08-13T20:18:17+0900 DDEBUG Plugins were unloaded.
+2024-08-13T22:19:03+0900 INFO --- logging initialized ---
+2024-08-13T22:19:03+0900 DDEBUG timer: config: 3 ms
+2024-08-13T22:19:03+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T22:19:03+0900 DEBUG DNF version: 4.14.0
+2024-08-13T22:19:03+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T22:19:03+0900 DDEBUG Installroot: /
+2024-08-13T22:19:03+0900 DDEBUG Releasever: 9
+2024-08-13T22:19:03+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T22:19:03+0900 DDEBUG Base command: makecache
+2024-08-13T22:19:03+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T22:19:03+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T22:19:03+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T22:19:03+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-13T22:19:03+0900 DDEBUG Cleaning up.
+2024-08-13T22:19:03+0900 DDEBUG Plugins were unloaded.
+2024-08-13T23:25:15+0900 INFO --- logging initialized ---
+2024-08-13T23:25:15+0900 DDEBUG timer: config: 4 ms
+2024-08-13T23:25:15+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-13T23:25:15+0900 DEBUG DNF version: 4.14.0
+2024-08-13T23:25:15+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-13T23:25:15+0900 DDEBUG Installroot: /
+2024-08-13T23:25:15+0900 DDEBUG Releasever: 9
+2024-08-13T23:25:15+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-13T23:25:15+0900 DDEBUG Base command: makecache
+2024-08-13T23:25:15+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-13T23:25:15+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-13T23:25:15+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-13T23:25:15+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-13T23:25:15+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-13T23:25:15+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-13T23:25:15+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-13T23:25:16+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T23:25:16+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-13T23:25:16+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-13T23:25:17+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T23:25:17+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-13T23:25:17+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-13T23:25:18+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T23:25:18+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-13T23:25:18+0900 DEBUG countme: no event for extras: window already counted
+2024-08-13T23:25:18+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-13T23:25:18+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-13T23:25:18+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-13T23:25:19+0900 DDEBUG timer: sack setup: 3457 ms
+2024-08-13T23:25:19+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-13T23:25:19+0900 DDEBUG Cleaning up.
+2024-08-13T23:25:19+0900 DDEBUG Plugins were unloaded.
+2024-08-14T01:10:05+0900 INFO --- logging initialized ---
+2024-08-14T01:10:05+0900 DDEBUG timer: config: 3 ms
+2024-08-14T01:10:05+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T01:10:05+0900 DEBUG DNF version: 4.14.0
+2024-08-14T01:10:05+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T01:10:05+0900 DDEBUG Installroot: /
+2024-08-14T01:10:05+0900 DDEBUG Releasever: 9
+2024-08-14T01:10:05+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T01:10:05+0900 DDEBUG Base command: makecache
+2024-08-14T01:10:05+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T01:10:05+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T01:10:05+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T01:10:05+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T01:10:05+0900 DDEBUG Cleaning up.
+2024-08-14T01:10:05+0900 DDEBUG Plugins were unloaded.
+2024-08-14T02:53:15+0900 INFO --- logging initialized ---
+2024-08-14T02:53:15+0900 DDEBUG timer: config: 2 ms
+2024-08-14T02:53:15+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T02:53:15+0900 DEBUG DNF version: 4.14.0
+2024-08-14T02:53:15+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T02:53:15+0900 DDEBUG Installroot: /
+2024-08-14T02:53:15+0900 DDEBUG Releasever: 9
+2024-08-14T02:53:15+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T02:53:15+0900 DDEBUG Base command: makecache
+2024-08-14T02:53:15+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T02:53:15+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T02:53:15+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T02:53:15+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-14T02:53:15+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-14T02:53:15+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-14T02:53:15+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-14T02:53:16+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T02:53:16+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-14T02:53:16+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-14T02:53:17+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T02:53:17+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-14T02:53:17+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-14T02:53:18+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T02:53:18+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 13일 (화) 오전 02시 25분 15초.
+2024-08-14T02:53:18+0900 DEBUG countme: no event for extras: window already counted
+2024-08-14T02:53:19+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T02:53:19+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-14T02:53:19+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-14T02:53:19+0900 DDEBUG timer: sack setup: 4010 ms
+2024-08-14T02:53:19+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-14T02:53:19+0900 DDEBUG Cleaning up.
+2024-08-14T02:53:19+0900 DDEBUG Plugins were unloaded.
+2024-08-14T04:20:17+0900 INFO --- logging initialized ---
+2024-08-14T04:20:17+0900 DDEBUG timer: config: 2 ms
+2024-08-14T04:20:17+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T04:20:17+0900 DEBUG DNF version: 4.14.0
+2024-08-14T04:20:17+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T04:20:17+0900 DDEBUG Installroot: /
+2024-08-14T04:20:17+0900 DDEBUG Releasever: 9
+2024-08-14T04:20:17+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T04:20:17+0900 DDEBUG Base command: makecache
+2024-08-14T04:20:17+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T04:20:17+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T04:20:17+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T04:20:17+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T04:20:17+0900 DDEBUG Cleaning up.
+2024-08-14T04:20:17+0900 DDEBUG Plugins were unloaded.
+2024-08-14T05:38:17+0900 INFO --- logging initialized ---
+2024-08-14T05:38:17+0900 DDEBUG timer: config: 5 ms
+2024-08-14T05:38:17+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T05:38:17+0900 DEBUG DNF version: 4.14.0
+2024-08-14T05:38:17+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T05:38:17+0900 DDEBUG Installroot: /
+2024-08-14T05:38:17+0900 DDEBUG Releasever: 9
+2024-08-14T05:38:17+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T05:38:17+0900 DDEBUG Base command: makecache
+2024-08-14T05:38:17+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T05:38:17+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T05:38:17+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T05:38:17+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T05:38:17+0900 DDEBUG Cleaning up.
+2024-08-14T05:38:17+0900 DDEBUG Plugins were unloaded.
+2024-08-14T07:24:17+0900 INFO --- logging initialized ---
+2024-08-14T07:24:17+0900 DDEBUG timer: config: 5 ms
+2024-08-14T07:24:17+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T07:24:17+0900 DEBUG DNF version: 4.14.0
+2024-08-14T07:24:17+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T07:24:17+0900 DDEBUG Installroot: /
+2024-08-14T07:24:17+0900 DDEBUG Releasever: 9
+2024-08-14T07:24:17+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T07:24:17+0900 DDEBUG Base command: makecache
+2024-08-14T07:24:17+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T07:24:17+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T07:24:17+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T07:24:17+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-14T07:24:17+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-14T07:24:17+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-14T07:24:17+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-14T07:24:18+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T07:24:18+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-14T07:24:18+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-14T07:24:19+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T07:24:19+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-14T07:24:19+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-14T07:24:20+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-08-14T07:24:20+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-08-14T07:24:20+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-14T07:24:22+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 14일 (수) 오전 12시 13분 05초.
+2024-08-14T07:24:22+0900 DEBUG countme: no event for extras: window already counted
+2024-08-14T07:24:23+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T07:24:23+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-14T07:24:23+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-14T07:24:23+0900 DDEBUG timer: sack setup: 5971 ms
+2024-08-14T07:24:23+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-14T07:24:23+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-14T07:24:23+0900 DDEBUG Cleaning up.
+2024-08-14T07:24:23+0900 DDEBUG Plugins were unloaded.
+2024-08-14T08:33:50+0900 INFO --- logging initialized ---
+2024-08-14T08:33:50+0900 DDEBUG timer: config: 9 ms
+2024-08-14T08:33:51+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T08:33:51+0900 DEBUG DNF version: 4.14.0
+2024-08-14T08:33:51+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T08:33:51+0900 DDEBUG Installroot: /
+2024-08-14T08:33:51+0900 DDEBUG Releasever: 9
+2024-08-14T08:33:51+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T08:33:51+0900 DDEBUG Base command: makecache
+2024-08-14T08:33:51+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T08:33:51+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T08:33:51+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T08:33:51+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T08:33:51+0900 DDEBUG Cleaning up.
+2024-08-14T08:33:51+0900 DDEBUG Plugins were unloaded.
+2024-08-14T09:48:20+0900 INFO --- logging initialized ---
+2024-08-14T09:48:20+0900 DDEBUG timer: config: 12 ms
+2024-08-14T09:48:20+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T09:48:20+0900 DEBUG DNF version: 4.14.0
+2024-08-14T09:48:20+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T09:48:20+0900 DDEBUG Installroot: /
+2024-08-14T09:48:20+0900 DDEBUG Releasever: 9
+2024-08-14T09:48:20+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T09:48:20+0900 DDEBUG Base command: makecache
+2024-08-14T09:48:20+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T09:48:20+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T09:48:20+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T09:48:20+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T09:48:20+0900 DDEBUG Cleaning up.
+2024-08-14T09:48:20+0900 DDEBUG Plugins were unloaded.
+2024-08-14T11:44:23+0900 INFO --- logging initialized ---
+2024-08-14T11:44:23+0900 DDEBUG timer: config: 12 ms
+2024-08-14T11:44:23+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T11:44:23+0900 DEBUG DNF version: 4.14.0
+2024-08-14T11:44:23+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T11:44:23+0900 DDEBUG Installroot: /
+2024-08-14T11:44:23+0900 DDEBUG Releasever: 9
+2024-08-14T11:44:23+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T11:44:23+0900 DDEBUG Base command: makecache
+2024-08-14T11:44:23+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T11:44:23+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T11:44:23+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T11:44:23+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-14T11:44:23+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-14T11:44:23+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-14T11:44:23+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-14T11:44:25+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T11:44:25+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-14T11:44:25+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-14T11:44:26+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T11:44:26+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-14T11:44:26+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-14T11:44:27+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T11:44:27+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 14일 (수) 오전 12시 13분 05초.
+2024-08-14T11:44:27+0900 DEBUG countme: no event for extras: window already counted
+2024-08-14T11:44:28+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T11:44:28+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-14T11:44:28+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-14T11:44:28+0900 DDEBUG timer: sack setup: 5062 ms
+2024-08-14T11:44:28+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-14T11:44:28+0900 DDEBUG Cleaning up.
+2024-08-14T11:44:28+0900 DDEBUG Plugins were unloaded.
+2024-08-14T13:05:23+0900 INFO --- logging initialized ---
+2024-08-14T13:05:23+0900 DDEBUG timer: config: 3 ms
+2024-08-14T13:05:23+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T13:05:23+0900 DEBUG DNF version: 4.14.0
+2024-08-14T13:05:23+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T13:05:23+0900 DDEBUG Installroot: /
+2024-08-14T13:05:23+0900 DDEBUG Releasever: 9
+2024-08-14T13:05:23+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T13:05:23+0900 DDEBUG Base command: makecache
+2024-08-14T13:05:23+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T13:05:23+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T13:05:23+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T13:05:23+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T13:05:23+0900 DDEBUG Cleaning up.
+2024-08-14T13:05:23+0900 DDEBUG Plugins were unloaded.
+2024-08-14T15:11:57+0900 INFO --- logging initialized ---
+2024-08-14T15:11:57+0900 DDEBUG timer: config: 6 ms
+2024-08-14T15:11:57+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T15:11:57+0900 DEBUG DNF version: 4.14.0
+2024-08-14T15:11:57+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T15:11:57+0900 DDEBUG Installroot: /
+2024-08-14T15:11:57+0900 DDEBUG Releasever: 9
+2024-08-14T15:11:57+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T15:11:57+0900 DDEBUG Base command: makecache
+2024-08-14T15:11:57+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T15:11:57+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T15:11:57+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T15:11:57+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-14T15:11:57+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-14T15:11:57+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-14T15:11:57+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-14T15:11:58+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T15:11:58+0900 DEBUG nginx: 메타 자료 사용 중 2024년 06월 26일 (수) 오전 06시 05분 08초.
+2024-08-14T15:11:58+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-14T15:11:59+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T15:11:59+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 07일 (수) 오전 04시 27분 49초.
+2024-08-14T15:11:59+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-14T15:12:00+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T15:12:00+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 14일 (수) 오전 12시 13분 05초.
+2024-08-14T15:12:00+0900 DEBUG countme: no event for extras: window already counted
+2024-08-14T15:12:01+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-14T15:12:01+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-14T15:12:01+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-14T15:12:01+0900 DDEBUG timer: sack setup: 3425 ms
+2024-08-14T15:12:01+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-14T15:12:01+0900 DDEBUG Cleaning up.
+2024-08-14T15:12:01+0900 DDEBUG Plugins were unloaded.
+2024-08-14T16:35:57+0900 INFO --- logging initialized ---
+2024-08-14T16:35:57+0900 DDEBUG timer: config: 5 ms
+2024-08-14T16:35:57+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-14T16:35:57+0900 DEBUG DNF version: 4.14.0
+2024-08-14T16:35:57+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-14T16:35:57+0900 DDEBUG Installroot: /
+2024-08-14T16:35:57+0900 DDEBUG Releasever: 9
+2024-08-14T16:35:57+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-14T16:35:57+0900 DDEBUG Base command: makecache
+2024-08-14T16:35:57+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-14T16:35:57+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-14T16:35:57+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-14T16:35:57+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-14T16:35:57+0900 DDEBUG Cleaning up.
+2024-08-14T16:35:57+0900 DDEBUG Plugins were unloaded.
+2024-08-16T09:09:33+0900 INFO --- logging initialized ---
+2024-08-16T09:09:33+0900 DDEBUG timer: config: 6 ms
+2024-08-16T09:09:33+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T09:09:33+0900 DEBUG DNF version: 4.14.0
+2024-08-16T09:09:33+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T09:09:33+0900 DDEBUG Installroot: /
+2024-08-16T09:09:33+0900 DDEBUG Releasever: 9
+2024-08-16T09:09:33+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T09:09:33+0900 DDEBUG Base command: makecache
+2024-08-16T09:09:33+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T09:09:33+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T09:09:33+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T09:09:33+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-16T09:09:33+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-16T09:09:33+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-16T09:09:33+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-16T09:09:34+0900 DEBUG 부활: 'nginx'에 실패하고, 일치하지 않은 repomd.
+2024-08-16T09:09:34+0900 DEBUG repo: 원격에서 내려받기 중: nginx
+2024-08-16T09:09:41+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T09:09:41+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-16T09:09:46+0900 DEBUG 부활: 'baseos'에 실패하고, 일치하지 않은 repomd.
+2024-08-16T09:09:46+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-08-16T09:09:46+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-16T09:09:48+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T09:09:48+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-16T09:09:51+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-08-16T09:09:51+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-08-16T09:09:51+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-16T09:09:54+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T09:09:54+0900 DEBUG countme: no event for extras: window already counted
+2024-08-16T09:09:55+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T09:09:55+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T09:09:55+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T09:09:55+0900 DDEBUG timer: sack setup: 21868 ms
+2024-08-16T09:09:55+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-16T09:09:55+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-16T09:09:55+0900 DDEBUG Cleaning up.
+2024-08-16T09:09:55+0900 DDEBUG Plugins were unloaded.
+2024-08-16T10:19:24+0900 INFO --- logging initialized ---
+2024-08-16T10:19:24+0900 DDEBUG timer: config: 6 ms
+2024-08-16T10:19:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T10:19:24+0900 DEBUG DNF version: 4.14.0
+2024-08-16T10:19:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T10:19:24+0900 DDEBUG Installroot: /
+2024-08-16T10:19:24+0900 DDEBUG Releasever: 9
+2024-08-16T10:19:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T10:19:24+0900 DDEBUG Base command: makecache
+2024-08-16T10:19:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T10:19:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T10:19:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T10:19:24+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-16T10:19:24+0900 DDEBUG Cleaning up.
+2024-08-16T10:19:24+0900 DDEBUG Plugins were unloaded.
+2024-08-16T11:49:24+0900 INFO --- logging initialized ---
+2024-08-16T11:49:24+0900 DDEBUG timer: config: 10 ms
+2024-08-16T11:49:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T11:49:24+0900 DEBUG DNF version: 4.14.0
+2024-08-16T11:49:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T11:49:24+0900 DDEBUG Installroot: /
+2024-08-16T11:49:24+0900 DDEBUG Releasever: 9
+2024-08-16T11:49:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T11:49:24+0900 DDEBUG Base command: makecache
+2024-08-16T11:49:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T11:49:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T11:49:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T11:49:24+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-16T11:49:24+0900 DDEBUG Cleaning up.
+2024-08-16T11:49:24+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:34:36+0900 INFO --- logging initialized ---
+2024-08-16T12:34:36+0900 DDEBUG timer: config: 6 ms
+2024-08-16T12:34:36+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T12:34:36+0900 DEBUG DNF version: 4.14.0
+2024-08-16T12:34:36+0900 DDEBUG Command: dnf -y install ab 
+2024-08-16T12:34:36+0900 DDEBUG Installroot: /
+2024-08-16T12:34:36+0900 DDEBUG Releasever: 9
+2024-08-16T12:34:36+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T12:34:36+0900 DDEBUG Base command: install
+2024-08-16T12:34:36+0900 DDEBUG Extra commands: ['-y', 'install', 'ab']
+2024-08-16T12:34:36+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T12:34:36+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T12:34:36+0900 DEBUG repo: 캐쉬 사용: nginx
+2024-08-16T12:34:36+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T12:34:36+0900 DEBUG repo: 캐쉬 사용: baseos
+2024-08-16T12:34:36+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T12:34:36+0900 DEBUG repo: 캐쉬 사용: appstream
+2024-08-16T12:34:36+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T12:34:36+0900 DEBUG repo: 캐쉬 사용: extras
+2024-08-16T12:34:36+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T12:34:36+0900 INFO 마지막 메타자료 만료확인(3:24:41 이전): 2024년 08월 16일 (금) 오전 09시 09분 55초.
+2024-08-16T12:34:36+0900 DDEBUG timer: sack setup: 523 ms
+2024-08-16T12:34:36+0900 INFO 일치하는 인수가 없습니다: [1mab(B[m
+2024-08-16T12:34:36+0900 DDEBUG Cleaning up.
+2024-08-16T12:34:36+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:34:36+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:34:36+0900 CRITICAL 오류: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:34:38+0900 INFO --- logging initialized ---
+2024-08-16T12:34:38+0900 DDEBUG timer: config: 2 ms
+2024-08-16T12:34:38+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T12:34:38+0900 DEBUG DNF version: 4.14.0
+2024-08-16T12:34:38+0900 DDEBUG Command: dnf -y install ab 
+2024-08-16T12:34:38+0900 DDEBUG Installroot: /
+2024-08-16T12:34:38+0900 DDEBUG Releasever: 9
+2024-08-16T12:34:38+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T12:34:38+0900 DDEBUG Base command: install
+2024-08-16T12:34:38+0900 DDEBUG Extra commands: ['-y', 'install', 'ab']
+2024-08-16T12:34:38+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T12:34:38+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T12:34:38+0900 DEBUG repo: 캐쉬 사용: nginx
+2024-08-16T12:34:38+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T12:34:38+0900 DEBUG repo: 캐쉬 사용: baseos
+2024-08-16T12:34:38+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T12:34:38+0900 DEBUG repo: 캐쉬 사용: appstream
+2024-08-16T12:34:38+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T12:34:38+0900 DEBUG repo: 캐쉬 사용: extras
+2024-08-16T12:34:38+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T12:34:38+0900 INFO 마지막 메타자료 만료확인(3:24:43 이전): 2024년 08월 16일 (금) 오전 09시 09분 55초.
+2024-08-16T12:34:38+0900 DDEBUG timer: sack setup: 238 ms
+2024-08-16T12:34:38+0900 INFO 일치하는 인수가 없습니다: [1mab(B[m
+2024-08-16T12:34:38+0900 DDEBUG Cleaning up.
+2024-08-16T12:34:38+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:34:38+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:34:38+0900 CRITICAL 오류: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:42:23+0900 INFO --- logging initialized ---
+2024-08-16T12:42:23+0900 DDEBUG timer: config: 2 ms
+2024-08-16T12:42:23+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T12:42:23+0900 DEBUG DNF version: 4.14.0
+2024-08-16T12:42:23+0900 DDEBUG Command: dnf -y install ab 
+2024-08-16T12:42:23+0900 DDEBUG Installroot: /
+2024-08-16T12:42:23+0900 DDEBUG Releasever: 9
+2024-08-16T12:42:23+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T12:42:23+0900 DDEBUG Base command: install
+2024-08-16T12:42:23+0900 DDEBUG Extra commands: ['-y', 'install', 'ab']
+2024-08-16T12:42:23+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T12:42:23+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T12:42:23+0900 DEBUG repo: 캐쉬 사용: nginx
+2024-08-16T12:42:23+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T12:42:23+0900 DEBUG repo: 캐쉬 사용: baseos
+2024-08-16T12:42:23+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T12:42:23+0900 DEBUG repo: 캐쉬 사용: appstream
+2024-08-16T12:42:23+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T12:42:23+0900 DEBUG repo: 캐쉬 사용: extras
+2024-08-16T12:42:23+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T12:42:23+0900 INFO 마지막 메타자료 만료확인(3:32:28 이전): 2024년 08월 16일 (금) 오전 09시 09분 55초.
+2024-08-16T12:42:23+0900 DDEBUG timer: sack setup: 252 ms
+2024-08-16T12:42:23+0900 INFO 일치하는 인수가 없습니다: [1mab(B[m
+2024-08-16T12:42:23+0900 DDEBUG Cleaning up.
+2024-08-16T12:42:23+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:42:23+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:42:23+0900 CRITICAL 오류: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:43:22+0900 INFO --- logging initialized ---
+2024-08-16T12:43:22+0900 DDEBUG timer: config: 4 ms
+2024-08-16T12:43:22+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T12:43:22+0900 DEBUG DNF version: 4.14.0
+2024-08-16T12:43:22+0900 DDEBUG Command: dnf install httpd-tools 
+2024-08-16T12:43:22+0900 DDEBUG Installroot: /
+2024-08-16T12:43:22+0900 DDEBUG Releasever: 9
+2024-08-16T12:43:22+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T12:43:22+0900 DDEBUG Base command: install
+2024-08-16T12:43:22+0900 DDEBUG Extra commands: ['install', 'httpd-tools']
+2024-08-16T12:43:22+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T12:43:22+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T12:43:22+0900 DEBUG repo: 캐쉬 사용: nginx
+2024-08-16T12:43:22+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T12:43:22+0900 DEBUG repo: 캐쉬 사용: baseos
+2024-08-16T12:43:22+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T12:43:22+0900 DEBUG repo: 캐쉬 사용: appstream
+2024-08-16T12:43:22+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T12:43:22+0900 DEBUG repo: 캐쉬 사용: extras
+2024-08-16T12:43:22+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T12:43:22+0900 INFO 마지막 메타자료 만료확인(3:33:27 이전): 2024년 08월 16일 (금) 오전 09시 09분 55초.
+2024-08-16T12:43:22+0900 DDEBUG timer: sack setup: 522 ms
+2024-08-16T12:43:22+0900 DEBUG -> 종석성 해결 시작
+2024-08-16T12:43:22+0900 DEBUG ---> 꾸러미 httpd-tools.x86_64 2.4.57-11.el9_4.1가 설치됩니다
+2024-08-16T12:43:22+0900 DEBUG ---> 꾸러미 apr-util-openssl.x86_64 1.6.1-23.el9가 설치됩니다
+2024-08-16T12:43:22+0900 DEBUG ---> 꾸러미 apr-util-bdb.x86_64 1.6.1-23.el9가 설치됩니다
+2024-08-16T12:43:22+0900 DEBUG ---> 꾸러미 apr-util.x86_64 1.6.1-23.el9가 설치됩니다
+2024-08-16T12:43:22+0900 DEBUG ---> 꾸러미 apr.x86_64 1.7.0-12.el9_3가 설치됩니다
+2024-08-16T12:43:22+0900 DEBUG -> 종속성 해결 완료
+2024-08-16T12:43:22+0900 DDEBUG timer: depsolve: 19 ms
+2024-08-16T12:43:22+0900 INFO 종속성이 해결되었습니다.
+2024-08-16T12:43:22+0900 INFO ================================================================================
+ 꾸러미                구조        버전                    저장소          크기
+================================================================================
+설치 중:
+ [1m[32mhttpd-tools          (B[m x86_64      2.4.57-11.el9_4.1       appstream       79 k
+종속 꾸러미 설치 중:
+ [1m[32mapr                  (B[m x86_64      1.7.0-12.el9_3          appstream      122 k
+ [1m[32mapr-util             (B[m x86_64      1.6.1-23.el9            appstream       94 k
+ [1m[32mapr-util-bdb         (B[m x86_64      1.6.1-23.el9            appstream       12 k
+취약한 종속 꾸러미 설치 중:
+ [1m[32mapr-util-openssl     (B[m x86_64      1.6.1-23.el9            appstream       14 k
+
+연결 요약
+================================================================================
+설치  5 꾸러미
+
+2024-08-16T12:43:22+0900 INFO 전체 내려받기 크기: 322 k
+2024-08-16T12:43:22+0900 INFO 설치된 크기 : 737 k
+2024-08-16T12:43:25+0900 INFO 꾸러미 내려받기 중:
+2024-08-16T12:43:26+0900 INFO --------------------------------------------------------------------------------
+2024-08-16T12:43:26+0900 INFO 합계                                            322 kB/s | 322 kB     00:00     
+2024-08-16T12:43:26+0900 DEBUG /usr/bin/rpmkeys에 실행 할 수 있는 rpmkey를 사용하여 서명을 확인합니다
+2024-08-16T12:43:26+0900 CRITICAL GPG키 0x350D275D 가져오는 중:
+사용자 ID : "Rocky Enterprise Software Foundation - Release key 2022 <releng@rockylinux.org>"
+지문: 21CB 256A E16F C54C 6E65 2949 702D 426D 350D 275D
+출처 : /etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
+2024-08-16T12:43:28+0900 INFO 키 가져오기에 성공했습니다
+2024-08-16T12:43:29+0900 INFO 연결 확인 실행 중
+2024-08-16T12:43:29+0900 INFO 연결 확인에 성공했습니다.
+2024-08-16T12:43:29+0900 INFO 연결 시험 실행 중
+2024-08-16T12:43:29+0900 INFO 연결 시험에 성공했습니다.
+2024-08-16T12:43:29+0900 DDEBUG timer: transaction test: 278 ms
+2024-08-16T12:43:29+0900 INFO 연결 실행 중
+2024-08-16T12:43:29+0900 DEBUG RPMDB는 DNF 외부에서 변경되었습니다.
+2024-08-16T12:43:29+0900 DDEBUG RPM transaction start.
+2024-08-16T12:43:29+0900 DDEBUG RPM transaction over.
+2024-08-16T12:43:30+0900 DDEBUG timer: verify transaction: 640 ms
+2024-08-16T12:43:30+0900 DDEBUG timer: transaction: 1169 ms
+2024-08-16T12:43:30+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-16T12:43:31+0900 DEBUG 설치되었습니다: apr-1.7.0-12.el9_3.x86_64
+2024-08-16T12:43:31+0900 DEBUG 설치되었습니다: apr-util-1.6.1-23.el9.x86_64
+2024-08-16T12:43:31+0900 DEBUG 설치되었습니다: apr-util-bdb-1.6.1-23.el9.x86_64
+2024-08-16T12:43:31+0900 DEBUG 설치되었습니다: apr-util-openssl-1.6.1-23.el9.x86_64
+2024-08-16T12:43:31+0900 DEBUG 설치되었습니다: httpd-tools-2.4.57-11.el9_4.1.x86_64
+2024-08-16T12:43:31+0900 INFO 완료되었습니다!
+2024-08-16T12:43:31+0900 DDEBUG Cleaning up.
+2024-08-16T12:43:31+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/apr-util-1.6.1-23.el9.x86_64.rpm가 삭제되었습니다
+2024-08-16T12:43:31+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/apr-util-bdb-1.6.1-23.el9.x86_64.rpm가 삭제되었습니다
+2024-08-16T12:43:31+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/apr-util-openssl-1.6.1-23.el9.x86_64.rpm가 삭제되었습니다
+2024-08-16T12:43:31+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/apr-1.7.0-12.el9_3.x86_64.rpm가 삭제되었습니다
+2024-08-16T12:43:31+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/httpd-tools-2.4.57-11.el9_4.1.x86_64.rpm가 삭제되었습니다
+2024-08-16T12:43:31+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:43:35+0900 INFO --- logging initialized ---
+2024-08-16T12:43:35+0900 DDEBUG timer: config: 5 ms
+2024-08-16T12:43:36+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T12:43:36+0900 DEBUG DNF version: 4.14.0
+2024-08-16T12:43:36+0900 DDEBUG Command: dnf -y install ab 
+2024-08-16T12:43:36+0900 DDEBUG Installroot: /
+2024-08-16T12:43:36+0900 DDEBUG Releasever: 9
+2024-08-16T12:43:36+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T12:43:36+0900 DDEBUG Base command: install
+2024-08-16T12:43:36+0900 DDEBUG Extra commands: ['-y', 'install', 'ab']
+2024-08-16T12:43:36+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T12:43:36+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T12:43:36+0900 DEBUG repo: 캐쉬 사용: nginx
+2024-08-16T12:43:36+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T12:43:36+0900 DEBUG repo: 캐쉬 사용: baseos
+2024-08-16T12:43:36+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T12:43:36+0900 DEBUG repo: 캐쉬 사용: appstream
+2024-08-16T12:43:36+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T12:43:36+0900 DEBUG repo: 캐쉬 사용: extras
+2024-08-16T12:43:36+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T12:43:36+0900 INFO 마지막 메타자료 만료확인(3:33:41 이전): 2024년 08월 16일 (금) 오전 09시 09분 55초.
+2024-08-16T12:43:36+0900 DDEBUG timer: sack setup: 309 ms
+2024-08-16T12:43:36+0900 INFO 일치하는 인수가 없습니다: [1mab(B[m
+2024-08-16T12:43:36+0900 DDEBUG Cleaning up.
+2024-08-16T12:43:36+0900 DDEBUG Plugins were unloaded.
+2024-08-16T12:43:36+0900 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T12:43:36+0900 CRITICAL 오류: 일치하는 항목을 찾을 수 없습니다: ab
+2024-08-16T13:21:24+0900 INFO --- logging initialized ---
+2024-08-16T13:21:24+0900 DDEBUG timer: config: 6 ms
+2024-08-16T13:21:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T13:21:24+0900 DEBUG DNF version: 4.14.0
+2024-08-16T13:21:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T13:21:24+0900 DDEBUG Installroot: /
+2024-08-16T13:21:24+0900 DDEBUG Releasever: 9
+2024-08-16T13:21:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T13:21:24+0900 DDEBUG Base command: makecache
+2024-08-16T13:21:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T13:21:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T13:21:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T13:21:24+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-16T13:21:24+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-16T13:21:24+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-16T13:21:24+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-16T13:21:25+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T13:21:25+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T13:21:25+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-16T13:21:26+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T13:21:26+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T13:21:26+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-16T13:21:29+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T13:21:29+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T13:21:29+0900 DEBUG countme: no event for extras: window already counted
+2024-08-16T13:21:30+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T13:21:30+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T13:21:30+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T13:21:30+0900 DDEBUG timer: sack setup: 6057 ms
+2024-08-16T13:21:30+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-16T13:21:30+0900 DDEBUG Cleaning up.
+2024-08-16T13:21:30+0900 DDEBUG Plugins were unloaded.
+2024-08-16T14:48:24+0900 INFO --- logging initialized ---
+2024-08-16T14:48:24+0900 DDEBUG timer: config: 4 ms
+2024-08-16T14:48:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T14:48:24+0900 DEBUG DNF version: 4.14.0
+2024-08-16T14:48:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T14:48:24+0900 DDEBUG Installroot: /
+2024-08-16T14:48:24+0900 DDEBUG Releasever: 9
+2024-08-16T14:48:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T14:48:24+0900 DDEBUG Base command: makecache
+2024-08-16T14:48:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T14:48:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T14:48:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T14:48:24+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-16T14:48:24+0900 DDEBUG Cleaning up.
+2024-08-16T14:48:24+0900 DDEBUG Plugins were unloaded.
+2024-08-16T16:43:24+0900 INFO --- logging initialized ---
+2024-08-16T16:43:24+0900 DDEBUG timer: config: 8 ms
+2024-08-16T16:43:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T16:43:24+0900 DEBUG DNF version: 4.14.0
+2024-08-16T16:43:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T16:43:24+0900 DDEBUG Installroot: /
+2024-08-16T16:43:24+0900 DDEBUG Releasever: 9
+2024-08-16T16:43:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T16:43:24+0900 DDEBUG Base command: makecache
+2024-08-16T16:43:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T16:43:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T16:43:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T16:43:24+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-16T16:43:24+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-16T16:43:24+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-16T16:43:24+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-16T16:43:25+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T16:43:25+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-16T16:43:25+0900 DEBUG countme: no event for baseos: window already counted
+2024-08-16T16:43:26+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T16:43:26+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 15일 (목) 오전 10시 41분 02초.
+2024-08-16T16:43:26+0900 DEBUG countme: no event for appstream: window already counted
+2024-08-16T16:43:27+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T16:43:27+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 16일 (금) 오전 04시 37분 05초.
+2024-08-16T16:43:27+0900 DEBUG countme: no event for extras: window already counted
+2024-08-16T16:43:28+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-16T16:43:28+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-16T16:43:28+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-16T16:43:28+0900 DDEBUG timer: sack setup: 4081 ms
+2024-08-16T16:43:28+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-16T16:43:28+0900 DDEBUG Cleaning up.
+2024-08-16T16:43:28+0900 DDEBUG Plugins were unloaded.
+2024-08-16T17:38:37+0900 INFO --- logging initialized ---
+2024-08-16T17:38:37+0900 DDEBUG timer: config: 5 ms
+2024-08-16T17:38:37+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-16T17:38:37+0900 DEBUG DNF version: 4.14.0
+2024-08-16T17:38:37+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-16T17:38:37+0900 DDEBUG Installroot: /
+2024-08-16T17:38:37+0900 DDEBUG Releasever: 9
+2024-08-16T17:38:37+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-16T17:38:37+0900 DDEBUG Base command: makecache
+2024-08-16T17:38:37+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-16T17:38:37+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-16T17:38:37+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-16T17:38:37+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-16T17:38:37+0900 DDEBUG Cleaning up.
+2024-08-16T17:38:37+0900 DDEBUG Plugins were unloaded.
+2024-08-26T10:48:16+0900 INFO --- logging initialized ---
+2024-08-26T10:48:16+0900 DDEBUG timer: config: 7 ms
+2024-08-26T10:48:16+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-26T10:48:16+0900 DEBUG DNF version: 4.14.0
+2024-08-26T10:48:16+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-26T10:48:16+0900 DDEBUG Installroot: /
+2024-08-26T10:48:16+0900 DDEBUG Releasever: 9
+2024-08-26T10:48:16+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-26T10:48:16+0900 DDEBUG Base command: makecache
+2024-08-26T10:48:16+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-26T10:48:16+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-26T10:48:16+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-26T10:48:16+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-08-26T10:48:16+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-08-26T10:48:16+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-08-26T10:48:16+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-08-26T10:48:17+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-26T10:48:17+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-08-26T10:48:17+0900 DEBUG countme: no event for baseos: budget to spend: 2
+2024-08-26T10:48:18+0900 DEBUG 부활: 'baseos'에 실패하고, 일치하지 않은 repomd.
+2024-08-26T10:48:18+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-08-26T10:48:18+0900 DEBUG countme: no event for baseos: budget to spend: 1
+2024-08-26T10:48:20+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 22일 (목) 오전 02시 08분 43초.
+2024-08-26T10:48:20+0900 DEBUG countme: no event for appstream: budget to spend: 1
+2024-08-26T10:48:21+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-08-26T10:48:21+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-08-26T10:48:21+0900 DEBUG countme: event triggered for appstream: bucket 2
+2024-08-26T10:48:25+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 22일 (목) 오전 02시 08분 10초.
+2024-08-26T10:48:25+0900 DEBUG countme: no event for extras: window already counted
+2024-08-26T10:48:26+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-08-26T10:48:26+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-08-26T10:48:26+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-08-26T10:48:26+0900 DDEBUG timer: sack setup: 10158 ms
+2024-08-26T10:48:26+0900 DEBUG Completion plugin: Generating completion cache...
+2024-08-26T10:48:26+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-08-26T10:48:26+0900 DDEBUG Cleaning up.
+2024-08-26T10:48:26+0900 DDEBUG Plugins were unloaded.
+2024-08-26T12:34:16+0900 INFO --- logging initialized ---
+2024-08-26T12:34:16+0900 DDEBUG timer: config: 5 ms
+2024-08-26T12:34:16+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-08-26T12:34:16+0900 DEBUG DNF version: 4.14.0
+2024-08-26T12:34:16+0900 DDEBUG Command: dnf makecache --timer 
+2024-08-26T12:34:16+0900 DDEBUG Installroot: /
+2024-08-26T12:34:16+0900 DDEBUG Releasever: 9
+2024-08-26T12:34:16+0900 DEBUG cachedir: /var/cache/dnf
+2024-08-26T12:34:16+0900 DDEBUG Base command: makecache
+2024-08-26T12:34:16+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-08-26T12:34:16+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-08-26T12:34:16+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-08-26T12:34:16+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-08-26T12:34:16+0900 DDEBUG Cleaning up.
+2024-08-26T12:34:16+0900 DDEBUG Plugins were unloaded.
+2024-09-05T09:28:44+0900 INFO --- logging initialized ---
+2024-09-05T09:28:44+0900 DDEBUG timer: config: 16 ms
+2024-09-05T09:28:45+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T09:28:45+0900 DEBUG DNF version: 4.14.0
+2024-09-05T09:28:45+0900 DDEBUG Command: dnf install git 
+2024-09-05T09:28:45+0900 DDEBUG Installroot: /
+2024-09-05T09:28:45+0900 DDEBUG Releasever: 9
+2024-09-05T09:28:45+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T09:28:45+0900 DDEBUG Base command: install
+2024-09-05T09:28:45+0900 DDEBUG Extra commands: ['install', 'git']
+2024-09-05T09:28:45+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T09:28:45+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-05T09:28:46+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T09:28:46+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-05T09:28:46+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T09:28:47+0900 DEBUG 부활: 'baseos'에 실패하고, 일치하지 않은 repomd.
+2024-09-05T09:28:47+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-09-05T09:28:47+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T09:28:48+0900 DEBUG error: Curl error (35): SSL connect error for https://ftp.kaist.ac.kr/pub/rocky/9.4/BaseOS/x86_64/os/repodata/repomd.xml [OpenSSL SSL_connect: 상대편이 연결을 끊음 in connection to ftp.kaist.ac.kr:443 ] (https://ftp.kaist.ac.kr/pub/rocky/9.4/BaseOS/x86_64/os/repodata/repomd.xml).
+2024-09-05T09:28:48+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 29일 (목) 오후 12시 55분 22초.
+2024-09-05T09:28:48+0900 DEBUG countme: no event for appstream: budget to spend: 1
+2024-09-05T09:28:49+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-09-05T09:28:49+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-09-05T09:28:49+0900 DEBUG countme: event triggered for appstream: bucket 2
+2024-09-05T09:28:51+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 30일 (금) 오전 11시 08분 19초.
+2024-09-05T09:28:51+0900 DEBUG countme: no event for extras: budget to spend: 1
+2024-09-05T09:28:52+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T09:28:52+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-05T09:28:52+0900 DDEBUG timer: sack setup: 7831 ms
+2024-09-05T09:28:52+0900 DEBUG Completion plugin: Generating completion cache...
+2024-09-05T09:28:52+0900 INFO 꾸러미 git-2.43.0-1.el9.x86_64가 이미 설치되어 있습니다.
+2024-09-05T09:28:52+0900 DEBUG -> 종석성 해결 시작
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 perl-Git.noarch 2.43.0-1.el9가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 perl-Git.noarch 2.43.5-1.el9_4가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git-core-doc.noarch 2.43.0-1.el9가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git-core-doc.noarch 2.43.5-1.el9_4가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git-core.x86_64 2.43.0-1.el9가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git-core.x86_64 2.43.5-1.el9_4가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git.x86_64 2.43.0-1.el9가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG ---> 꾸러미 git.x86_64 2.43.5-1.el9_4가 최신화됩니다
+2024-09-05T09:28:52+0900 DEBUG -> 종속성 해결 완료
+2024-09-05T09:28:52+0900 DDEBUG timer: depsolve: 16 ms
+2024-09-05T09:28:52+0900 INFO 종속성이 해결되었습니다.
+2024-09-05T09:28:52+0900 INFO ================================================================================
+ 꾸러미              구조          버전                  저장소            크기
+================================================================================
+향상 중:
+ [1m[32mgit                (B[m x86_64        2.43.5-1.el9_4        appstream         50 k
+ [1m[32mgit-core           (B[m x86_64        2.43.5-1.el9_4        appstream        4.4 M
+ [1m[32mgit-core-doc       (B[m noarch        2.43.5-1.el9_4        appstream        2.7 M
+ [1m[32mperl-Git           (B[m noarch        2.43.5-1.el9_4        appstream         37 k
+
+연결 요약
+================================================================================
+향상  4 꾸러미
+
+2024-09-05T09:28:52+0900 INFO 전체 내려받기 크기: 7.1 M
+2024-09-05T09:28:54+0900 INFO 꾸러미 내려받기 중:
+2024-09-05T09:28:56+0900 INFO --------------------------------------------------------------------------------
+2024-09-05T09:28:56+0900 INFO 합계                                            5.5 MB/s | 7.1 MB     00:01     
+2024-09-05T09:28:56+0900 DEBUG /usr/bin/rpmkeys에 실행 할 수 있는 rpmkey를 사용하여 서명을 확인합니다
+2024-09-05T09:28:56+0900 INFO 연결 확인 실행 중
+2024-09-05T09:28:56+0900 INFO 연결 확인에 성공했습니다.
+2024-09-05T09:28:56+0900 INFO 연결 시험 실행 중
+2024-09-05T09:28:56+0900 INFO 연결 시험에 성공했습니다.
+2024-09-05T09:28:56+0900 DDEBUG timer: transaction test: 197 ms
+2024-09-05T09:28:56+0900 INFO 연결 실행 중
+2024-09-05T09:28:56+0900 DDEBUG RPM transaction start.
+2024-09-05T09:28:58+0900 DDEBUG RPM transaction over.
+2024-09-05T09:28:58+0900 DDEBUG timer: verify transaction: 313 ms
+2024-09-05T09:28:58+0900 DDEBUG timer: transaction: 2293 ms
+2024-09-05T09:28:58+0900 DEBUG Completion plugin: Generating completion cache...
+2024-09-05T09:28:59+0900 DEBUG 향상되었습니다: git-2.43.5-1.el9_4.x86_64
+2024-09-05T09:28:59+0900 DEBUG 향상되었습니다: git-core-2.43.5-1.el9_4.x86_64
+2024-09-05T09:28:59+0900 DEBUG 향상되었습니다: git-core-doc-2.43.5-1.el9_4.noarch
+2024-09-05T09:28:59+0900 DEBUG 향상되었습니다: perl-Git-2.43.5-1.el9_4.noarch
+2024-09-05T09:28:59+0900 INFO 완료되었습니다!
+2024-09-05T09:28:59+0900 DDEBUG Cleaning up.
+2024-09-05T09:28:59+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/perl-Git-2.43.5-1.el9_4.noarch.rpm가 삭제되었습니다
+2024-09-05T09:28:59+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/git-core-2.43.5-1.el9_4.x86_64.rpm가 삭제되었습니다
+2024-09-05T09:28:59+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/git-core-doc-2.43.5-1.el9_4.noarch.rpm가 삭제되었습니다
+2024-09-05T09:28:59+0900 DDEBUG /var/cache/dnf/appstream-25485261a76941d3/packages/git-2.43.5-1.el9_4.x86_64.rpm가 삭제되었습니다
+2024-09-05T09:28:59+0900 DDEBUG Plugins were unloaded.
+2024-09-05T10:37:20+0900 INFO --- logging initialized ---
+2024-09-05T10:37:20+0900 DDEBUG timer: config: 4 ms
+2024-09-05T10:37:20+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T10:37:20+0900 DEBUG DNF version: 4.14.0
+2024-09-05T10:37:20+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T10:37:20+0900 DDEBUG Installroot: /
+2024-09-05T10:37:20+0900 DDEBUG Releasever: 9
+2024-09-05T10:37:20+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T10:37:20+0900 DDEBUG Base command: makecache
+2024-09-05T10:37:20+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T10:37:20+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T10:37:20+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T10:37:20+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-05T10:37:20+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-05T10:37:20+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-05T10:37:20+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-05T10:37:20+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T10:37:20+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-05T10:37:20+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T10:37:22+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T10:37:22+0900 DEBUG baseos: 메타 자료 사용 중 2024년 08월 29일 (목) 오후 12시 55분 22초.
+2024-09-05T10:37:22+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-05T10:37:22+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T10:37:22+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 30일 (금) 오전 11시 08분 19초.
+2024-09-05T10:37:22+0900 DEBUG countme: event triggered for extras: bucket 2
+2024-09-05T10:37:23+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T10:37:23+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-05T10:37:23+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-05T10:37:23+0900 DDEBUG timer: sack setup: 3603 ms
+2024-09-05T10:37:23+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-05T10:37:23+0900 DDEBUG Cleaning up.
+2024-09-05T10:37:23+0900 DDEBUG Plugins were unloaded.
+2024-09-05T12:07:20+0900 INFO --- logging initialized ---
+2024-09-05T12:07:20+0900 DDEBUG timer: config: 4 ms
+2024-09-05T12:07:20+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T12:07:20+0900 DEBUG DNF version: 4.14.0
+2024-09-05T12:07:20+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T12:07:20+0900 DDEBUG Installroot: /
+2024-09-05T12:07:20+0900 DDEBUG Releasever: 9
+2024-09-05T12:07:20+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T12:07:20+0900 DDEBUG Base command: makecache
+2024-09-05T12:07:20+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T12:07:20+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T12:07:20+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T12:07:20+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-05T12:07:20+0900 DDEBUG Cleaning up.
+2024-09-05T12:07:20+0900 DDEBUG Plugins were unloaded.
+2024-09-05T13:35:24+0900 INFO --- logging initialized ---
+2024-09-05T13:35:24+0900 DDEBUG timer: config: 3 ms
+2024-09-05T13:35:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T13:35:24+0900 DEBUG DNF version: 4.14.0
+2024-09-05T13:35:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T13:35:24+0900 DDEBUG Installroot: /
+2024-09-05T13:35:24+0900 DDEBUG Releasever: 9
+2024-09-05T13:35:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T13:35:24+0900 DDEBUG Base command: makecache
+2024-09-05T13:35:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T13:35:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T13:35:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T13:35:24+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-05T13:35:24+0900 DDEBUG Cleaning up.
+2024-09-05T13:35:24+0900 DDEBUG Plugins were unloaded.
+2024-09-05T15:28:24+0900 INFO --- logging initialized ---
+2024-09-05T15:28:24+0900 DDEBUG timer: config: 3 ms
+2024-09-05T15:28:24+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T15:28:24+0900 DEBUG DNF version: 4.14.0
+2024-09-05T15:28:24+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T15:28:24+0900 DDEBUG Installroot: /
+2024-09-05T15:28:24+0900 DDEBUG Releasever: 9
+2024-09-05T15:28:24+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T15:28:24+0900 DDEBUG Base command: makecache
+2024-09-05T15:28:24+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T15:28:24+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T15:28:24+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T15:28:24+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-05T15:28:24+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-05T15:28:24+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-05T15:28:24+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-05T15:28:25+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T15:28:25+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-05T15:28:25+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T15:28:26+0900 DEBUG 부활: 'baseos'에 실패하고, 일치하지 않은 repomd.
+2024-09-05T15:28:26+0900 DEBUG repo: 원격에서 내려받기 중: baseos
+2024-09-05T15:28:26+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T15:28:27+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-05T15:28:27+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-05T15:28:28+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T15:28:28+0900 DEBUG appstream: 메타 자료 사용 중 2024년 08월 30일 (금) 오전 11시 08분 19초.
+2024-09-05T15:28:28+0900 DEBUG countme: no event for extras: window already counted
+2024-09-05T15:28:29+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T15:28:29+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-05T15:28:29+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-05T15:28:29+0900 DDEBUG timer: sack setup: 5032 ms
+2024-09-05T15:28:29+0900 DEBUG Completion plugin: Generating completion cache...
+2024-09-05T15:28:29+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-05T15:28:29+0900 DDEBUG Cleaning up.
+2024-09-05T15:28:29+0900 DDEBUG Plugins were unloaded.
+2024-09-05T16:39:14+0900 INFO --- logging initialized ---
+2024-09-05T16:39:14+0900 DDEBUG timer: config: 2 ms
+2024-09-05T16:39:14+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T16:39:14+0900 DEBUG DNF version: 4.14.0
+2024-09-05T16:39:14+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T16:39:14+0900 DDEBUG Installroot: /
+2024-09-05T16:39:14+0900 DDEBUG Releasever: 9
+2024-09-05T16:39:14+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T16:39:14+0900 DDEBUG Base command: makecache
+2024-09-05T16:39:14+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T16:39:14+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T16:39:14+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T16:39:14+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-05T16:39:14+0900 DDEBUG Cleaning up.
+2024-09-05T16:39:14+0900 DDEBUG Plugins were unloaded.
+2024-09-05T18:37:28+0900 INFO --- logging initialized ---
+2024-09-05T18:37:28+0900 DDEBUG timer: config: 12 ms
+2024-09-05T18:37:28+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T18:37:28+0900 DEBUG DNF version: 4.14.0
+2024-09-05T18:37:28+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T18:37:28+0900 DDEBUG Installroot: /
+2024-09-05T18:37:28+0900 DDEBUG Releasever: 9
+2024-09-05T18:37:28+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T18:37:28+0900 DDEBUG Base command: makecache
+2024-09-05T18:37:28+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T18:37:28+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T18:37:28+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T18:37:28+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-05T18:37:28+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-05T18:37:28+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-05T18:37:28+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-05T18:37:29+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T18:37:29+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-05T18:37:29+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T18:37:29+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T18:37:29+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-05T18:37:29+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-05T18:37:30+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-09-05T18:37:30+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-09-05T18:37:30+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-05T18:37:33+0900 DEBUG appstream: 메타 자료 사용 중 2024년 09월 05일 (목) 오전 11시 13분 24초.
+2024-09-05T18:37:33+0900 DEBUG countme: no event for extras: window already counted
+2024-09-05T18:37:33+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T18:37:33+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-05T18:37:33+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-05T18:37:33+0900 DDEBUG timer: sack setup: 5701 ms
+2024-09-05T18:37:33+0900 DEBUG Completion plugin: Generating completion cache...
+2024-09-05T18:37:34+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-05T18:37:34+0900 DDEBUG Cleaning up.
+2024-09-05T18:37:34+0900 DDEBUG Plugins were unloaded.
+2024-09-05T20:37:27+0900 INFO --- logging initialized ---
+2024-09-05T20:37:27+0900 DDEBUG timer: config: 2 ms
+2024-09-05T20:37:27+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T20:37:27+0900 DEBUG DNF version: 4.14.0
+2024-09-05T20:37:27+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T20:37:27+0900 DDEBUG Installroot: /
+2024-09-05T20:37:27+0900 DDEBUG Releasever: 9
+2024-09-05T20:37:27+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T20:37:27+0900 DDEBUG Base command: makecache
+2024-09-05T20:37:27+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T20:37:27+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T20:37:27+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T20:37:27+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-05T20:37:27+0900 DDEBUG Cleaning up.
+2024-09-05T20:37:27+0900 DDEBUG Plugins were unloaded.
+2024-09-05T22:18:27+0900 INFO --- logging initialized ---
+2024-09-05T22:18:27+0900 DDEBUG timer: config: 2 ms
+2024-09-05T22:18:27+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T22:18:27+0900 DEBUG DNF version: 4.14.0
+2024-09-05T22:18:27+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T22:18:27+0900 DDEBUG Installroot: /
+2024-09-05T22:18:27+0900 DDEBUG Releasever: 9
+2024-09-05T22:18:27+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T22:18:27+0900 DDEBUG Base command: makecache
+2024-09-05T22:18:27+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T22:18:27+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T22:18:27+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T22:18:27+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-05T22:18:27+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-05T22:18:27+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-05T22:18:27+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-05T22:18:28+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T22:18:28+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-05T22:18:28+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-05T22:18:29+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T22:18:29+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-05T22:18:29+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-05T22:18:30+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T22:18:30+0900 DEBUG appstream: 메타 자료 사용 중 2024년 09월 05일 (목) 오전 11시 13분 24초.
+2024-09-05T22:18:30+0900 DEBUG countme: no event for extras: window already counted
+2024-09-05T22:18:31+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-05T22:18:31+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-05T22:18:31+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-05T22:18:31+0900 DDEBUG timer: sack setup: 3694 ms
+2024-09-05T22:18:31+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-05T22:18:31+0900 DDEBUG Cleaning up.
+2024-09-05T22:18:31+0900 DDEBUG Plugins were unloaded.
+2024-09-05T23:52:30+0900 INFO --- logging initialized ---
+2024-09-05T23:52:30+0900 DDEBUG timer: config: 2 ms
+2024-09-05T23:52:30+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-05T23:52:30+0900 DEBUG DNF version: 4.14.0
+2024-09-05T23:52:30+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-05T23:52:30+0900 DDEBUG Installroot: /
+2024-09-05T23:52:30+0900 DDEBUG Releasever: 9
+2024-09-05T23:52:30+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-05T23:52:30+0900 DDEBUG Base command: makecache
+2024-09-05T23:52:30+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-05T23:52:30+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-05T23:52:30+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-05T23:52:30+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-05T23:52:30+0900 DDEBUG Cleaning up.
+2024-09-05T23:52:30+0900 DDEBUG Plugins were unloaded.
+2024-09-06T01:45:20+0900 INFO --- logging initialized ---
+2024-09-06T01:45:20+0900 DDEBUG timer: config: 2 ms
+2024-09-06T01:45:20+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T01:45:20+0900 DEBUG DNF version: 4.14.0
+2024-09-06T01:45:20+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T01:45:20+0900 DDEBUG Installroot: /
+2024-09-06T01:45:20+0900 DDEBUG Releasever: 9
+2024-09-06T01:45:20+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T01:45:20+0900 DDEBUG Base command: makecache
+2024-09-06T01:45:20+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T01:45:20+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T01:45:20+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T01:45:20+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-06T01:45:20+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-06T01:45:20+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-06T01:45:20+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-06T01:45:23+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T01:45:23+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-06T01:45:23+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-06T01:45:24+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T01:45:24+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-06T01:45:24+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-06T01:45:25+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T01:45:25+0900 DEBUG appstream: 메타 자료 사용 중 2024년 09월 05일 (목) 오전 11시 13분 24초.
+2024-09-06T01:45:25+0900 DEBUG countme: no event for extras: window already counted
+2024-09-06T01:45:26+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T01:45:26+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-06T01:45:26+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-06T01:45:26+0900 DDEBUG timer: sack setup: 5813 ms
+2024-09-06T01:45:26+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-06T01:45:26+0900 DDEBUG Cleaning up.
+2024-09-06T01:45:26+0900 DDEBUG Plugins were unloaded.
+2024-09-06T03:43:26+0900 INFO --- logging initialized ---
+2024-09-06T03:43:26+0900 DDEBUG timer: config: 3 ms
+2024-09-06T03:43:26+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T03:43:26+0900 DEBUG DNF version: 4.14.0
+2024-09-06T03:43:26+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T03:43:26+0900 DDEBUG Installroot: /
+2024-09-06T03:43:26+0900 DDEBUG Releasever: 9
+2024-09-06T03:43:26+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T03:43:26+0900 DDEBUG Base command: makecache
+2024-09-06T03:43:26+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T03:43:26+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T03:43:26+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T03:43:26+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-06T03:43:26+0900 DDEBUG Cleaning up.
+2024-09-06T03:43:26+0900 DDEBUG Plugins were unloaded.
+2024-09-06T05:42:32+0900 INFO --- logging initialized ---
+2024-09-06T05:42:32+0900 DDEBUG timer: config: 7 ms
+2024-09-06T05:42:32+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T05:42:32+0900 DEBUG DNF version: 4.14.0
+2024-09-06T05:42:32+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T05:42:32+0900 DDEBUG Installroot: /
+2024-09-06T05:42:32+0900 DDEBUG Releasever: 9
+2024-09-06T05:42:32+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T05:42:32+0900 DDEBUG Base command: makecache
+2024-09-06T05:42:32+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T05:42:32+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T05:42:32+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T05:42:32+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-06T05:42:32+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-06T05:42:32+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-06T05:42:32+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-06T05:42:33+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T05:42:33+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-06T05:42:33+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-06T05:42:34+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T05:42:34+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-06T05:42:34+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-06T05:42:35+0900 DEBUG 부활: 'appstream'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T05:42:35+0900 DEBUG appstream: 메타 자료 사용 중 2024년 09월 05일 (목) 오전 11시 13분 24초.
+2024-09-06T05:42:35+0900 DEBUG countme: no event for extras: window already counted
+2024-09-06T05:42:36+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T05:42:36+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-06T05:42:36+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-06T05:42:36+0900 DDEBUG timer: sack setup: 3486 ms
+2024-09-06T05:42:36+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-06T05:42:36+0900 DDEBUG Cleaning up.
+2024-09-06T05:42:36+0900 DDEBUG Plugins were unloaded.
+2024-09-06T07:03:22+0900 INFO --- logging initialized ---
+2024-09-06T07:03:22+0900 DDEBUG timer: config: 6 ms
+2024-09-06T07:03:22+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T07:03:22+0900 DEBUG DNF version: 4.14.0
+2024-09-06T07:03:22+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T07:03:22+0900 DDEBUG Installroot: /
+2024-09-06T07:03:22+0900 DDEBUG Releasever: 9
+2024-09-06T07:03:22+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T07:03:22+0900 DDEBUG Base command: makecache
+2024-09-06T07:03:22+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T07:03:22+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T07:03:22+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T07:03:22+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-06T07:03:22+0900 DDEBUG Cleaning up.
+2024-09-06T07:03:22+0900 DDEBUG Plugins were unloaded.
+2024-09-06T08:25:32+0900 INFO --- logging initialized ---
+2024-09-06T08:25:32+0900 DDEBUG timer: config: 3 ms
+2024-09-06T08:25:32+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T08:25:32+0900 DEBUG DNF version: 4.14.0
+2024-09-06T08:25:32+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T08:25:32+0900 DDEBUG Installroot: /
+2024-09-06T08:25:32+0900 DDEBUG Releasever: 9
+2024-09-06T08:25:32+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T08:25:32+0900 DDEBUG Base command: makecache
+2024-09-06T08:25:32+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T08:25:32+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T08:25:32+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T08:25:32+0900 INFO 최근에 메타 자료 캐쉬가 새로 고쳐졌습니다.
+2024-09-06T08:25:32+0900 DDEBUG Cleaning up.
+2024-09-06T08:25:32+0900 DDEBUG Plugins were unloaded.
+2024-09-06T09:37:34+0900 INFO --- logging initialized ---
+2024-09-06T09:37:34+0900 DDEBUG timer: config: 3 ms
+2024-09-06T09:37:34+0900 DEBUG 적재된 플러그인: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, kpatch, needs-restarting, notify-packagekit, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2024-09-06T09:37:34+0900 DEBUG DNF version: 4.14.0
+2024-09-06T09:37:34+0900 DDEBUG Command: dnf makecache --timer 
+2024-09-06T09:37:34+0900 DDEBUG Installroot: /
+2024-09-06T09:37:34+0900 DDEBUG Releasever: 9
+2024-09-06T09:37:34+0900 DEBUG cachedir: /var/cache/dnf
+2024-09-06T09:37:34+0900 DDEBUG Base command: makecache
+2024-09-06T09:37:34+0900 DDEBUG Extra commands: ['makecache', '--timer']
+2024-09-06T09:37:34+0900 DEBUG 알 수없는 옵션 : enable = 1 in /etc/yum.repos.d/nginx.repo
+2024-09-06T09:37:34+0900 DEBUG 모든 메타 자료 파일의 캐쉬 파일을 만듭니다.
+2024-09-06T09:37:34+0900 DEBUG nginx: 만료되어 새로 고침됩니다.
+2024-09-06T09:37:34+0900 DEBUG baseos: 만료되어 새로 고침됩니다.
+2024-09-06T09:37:34+0900 DEBUG appstream: 만료되어 새로 고침됩니다.
+2024-09-06T09:37:34+0900 DEBUG extras: 만료되어 새로 고침됩니다.
+2024-09-06T09:37:35+0900 DEBUG 부활: 'nginx'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T09:37:35+0900 DEBUG nginx: 메타 자료 사용 중 2024년 08월 14일 (수) 오후 03시 06분 39초.
+2024-09-06T09:37:35+0900 DEBUG countme: no event for baseos: window already counted
+2024-09-06T09:37:36+0900 DEBUG 부활: 'baseos'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T09:37:36+0900 DEBUG baseos: 메타 자료 사용 중 2024년 09월 05일 (목) 오후 12시 05분 27초.
+2024-09-06T09:37:36+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-06T09:37:36+0900 DEBUG 부활: 'appstream'에 실패하고, 일치하지 않은 repomd.
+2024-09-06T09:37:36+0900 DEBUG repo: 원격에서 내려받기 중: appstream
+2024-09-06T09:37:36+0900 DEBUG countme: no event for appstream: window already counted
+2024-09-06T09:37:39+0900 DEBUG appstream: 메타 자료 사용 중 2024년 09월 06일 (금) 오전 12시 55분 14초.
+2024-09-06T09:37:39+0900 DEBUG countme: no event for extras: window already counted
+2024-09-06T09:37:39+0900 DEBUG 부활: 'extras'는 부활 할 수 있습니다 - repomd가 일치합니다.
+2024-09-06T09:37:40+0900 DEBUG extras: 메타 자료 사용 중 2024년 08월 12일 (월) 오전 07시 44분 17초.
+2024-09-06T09:37:40+0900 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.4; generic; Linux.x86_64)'
+2024-09-06T09:37:40+0900 DDEBUG timer: sack setup: 5672 ms
+2024-09-06T09:37:40+0900 DEBUG Completion plugin: Generating completion cache...
+2024-09-06T09:37:40+0900 INFO 메타 자료 캐쉬가 생성되었습니다.
+2024-09-06T09:37:40+0900 DDEBUG Cleaning up.
+2024-09-06T09:37:40+0900 DDEBUG Plugins were unloaded.
